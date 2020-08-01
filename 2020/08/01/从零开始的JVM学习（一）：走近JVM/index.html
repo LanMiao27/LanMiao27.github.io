@@ -5,11 +5,11 @@
   
 
   
-  <title>Hexo</title>
+  <title>从零开始的JVM学习（一）：走近JVM | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="最近在差不多看完JVM和并发的书籍以及顺便用幕布做了点笔记基础上，认为是时候总结一下JVM部分学习到的知识。 参考书籍主要是：《深入理解Java虚拟机》第三版。还有很多视频课程（主要是宋红康老师的视频教程）、系列博客也对我学习JVM带来了很多帮助。 所以才有了这一系列关于JVM学习的文章。 下面正式开始。  什么是Java虚拟机首先我们要明白什么是Java虚拟机，Java虚拟机（JVM）就是二进制">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hexo">
+<meta property="og:title" content="从零开始的JVM学习（一）：走近JVM">
 <meta property="og:url" content="http://yoursite.com/2020/08/01/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%9A%84JVM%E5%AD%A6%E4%B9%A0%EF%BC%88%E4%B8%80%EF%BC%89%EF%BC%9A%E8%B5%B0%E8%BF%91JVM/index.html">
 <meta property="og:site_name" content="Hexo">
 <meta property="og:description" content="最近在差不多看完JVM和并发的书籍以及顺便用幕布做了点笔记基础上，认为是时候总结一下JVM部分学习到的知识。 参考书籍主要是：《深入理解Java虚拟机》第三版。还有很多视频课程（主要是宋红康老师的视频教程）、系列博客也对我学习JVM带来了很多帮助。 所以才有了这一系列关于JVM学习的文章。 下面正式开始。  什么是Java虚拟机首先我们要明白什么是Java虚拟机，Java虚拟机（JVM）就是二进制">
@@ -18,7 +18,7 @@
 <meta property="og:image" content="https://user-gold-cdn.xitu.io/2020/7/28/173940feb72e1bf3?w=1280&h=888&f=png&s=370590">
 <meta property="og:image" content="https://user-gold-cdn.xitu.io/2020/7/28/1739353dd2eb38d0?w=802&h=636&f=png&s=151875">
 <meta property="article:published_time" content="2020-08-01T02:51:15.332Z">
-<meta property="article:modified_time" content="2020-08-01T02:51:58.249Z">
+<meta property="article:modified_time" content="2020-08-01T03:02:39.831Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/2e5442ac5bdd4180843c2afa1b3bdf6a~tplv-k3u1fbpfcp-zoom-1.image">
@@ -80,6 +80,16 @@
   <div class="article-inner">
     
     
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      从零开始的JVM学习（一）：走近JVM
+    </h1>
+  
+
+      </header>
+    
     <div class="article-entry" itemprop="articleBody">
       
         <p>最近在差不多看完<strong>JVM</strong>和<strong>并发</strong>的书籍以及顺便用幕布做了点笔记基础上，认为是时候总结一下JVM部分学习到的知识。</p>
@@ -130,7 +140,7 @@
       <strong class="article-nav-caption">Newer</strong>
       <div class="article-nav-title">
         
-          (no title)
+          从零开始的JVM学习（二）：初识类加载子系统
         
       </div>
     </a>
@@ -175,11 +185,11 @@
       <ul>
         
           <li>
-            <a href="/2020/08/01/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%9A%84JVM%E5%AD%A6%E4%B9%A0%EF%BC%88%E4%BA%8C%EF%BC%89%EF%BC%9A%E5%88%9D%E8%AF%86%E7%B1%BB%E5%8A%A0%E8%BD%BD%E5%AD%90%E7%B3%BB%E7%BB%9F/">(no title)</a>
+            <a href="/2020/08/01/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%9A%84JVM%E5%AD%A6%E4%B9%A0%EF%BC%88%E4%BA%8C%EF%BC%89%EF%BC%9A%E5%88%9D%E8%AF%86%E7%B1%BB%E5%8A%A0%E8%BD%BD%E5%AD%90%E7%B3%BB%E7%BB%9F/">从零开始的JVM学习（二）：初识类加载子系统</a>
           </li>
         
           <li>
-            <a href="/2020/08/01/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%9A%84JVM%E5%AD%A6%E4%B9%A0%EF%BC%88%E4%B8%80%EF%BC%89%EF%BC%9A%E8%B5%B0%E8%BF%91JVM/">(no title)</a>
+            <a href="/2020/08/01/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%9A%84JVM%E5%AD%A6%E4%B9%A0%EF%BC%88%E4%B8%80%EF%BC%89%EF%BC%9A%E8%B5%B0%E8%BF%91JVM/">从零开始的JVM学习（一）：走近JVM</a>
           </li>
         
           <li>
